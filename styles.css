@@ -6,8 +6,8 @@
   flex-direction: column;
 }
 h2 {
-    display: flex;
-    align-content: space-between;
+  display: flex;
+  align-content: space-between;
 }
 
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
@@ -28,9 +28,13 @@ h2 {
   }
 }
 .container {
-    display: flex;
+  display: flex;
 }
 
 #header-img {
-    display: block;
+  display: block;
+}
+
+body {
+  font-size: medium;
 }
